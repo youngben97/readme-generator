@@ -14,7 +14,52 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ## Description
+  
+  ${data.description}
+
+  ## Table of Contents
+
+  - [Installation] (#installation)
+  - [Usage] (#usage)
+  - [License] (#license)
+  - [Badges] (#badges)
+  - [Contribution] (#contribution)
+  - [Test] (#test)
+  - [Questions] (#questions)
+
+  ## Installation
+
+  ${data.installation}
+
+  ## Usage
+  
+  ${data.usage}
+
+  ## License
+
+  ${data.usage}
+
+  ## Badges
+
+  add code to add badges
+
+  ## How to Contribute
+
+  ${data.contribution}
+
+  ## Tests
+
+  ${data.test}
+
+  ## Questions
+
+  If you have any questions, feel free to contact me at:
+  - Github: ${data.gitname}
+  - Email: ${data.email}
 `;
 }
+//note the templaye literal^. You need to write out the markdown file and
+//fill it in with ${data.example}
 
 module.exports = generateMarkdown;
