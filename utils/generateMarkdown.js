@@ -38,7 +38,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.usage}
+  ${data.license}
 
   ## Badges
 
