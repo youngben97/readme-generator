@@ -40,15 +40,15 @@ const questions = [
         name: "license",
         message: "Please select a license.",
         choices: [
-            "GNU GPLv3",
-            "GNU AGPLv3",
-            "GNU LGPLv3",
-            "Mozilla Public License 2.0",
-            "Apache License 2.0",
-            "MIT License",
-            "Boost Software License 1.0",
-            "The Unlicense",
-            "No License - Not Recommended"
+            "GNUGPLv3",
+            "GNUAGPLv3",
+            "GNULGPLv3",
+            "Mozilla",
+            "Apache",
+            "MIT",
+            "Boost",
+            "Unlicense",
+            "None"
         ]
     },
     {
