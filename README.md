@@ -3,7 +3,7 @@
   ## Description
   
   This is a command-line application that dynamically generates a professional README.md using inquirer.
-
+  Source Code: https://github.com/coding-boot-camp/potential-enigma
   ## Badges
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
