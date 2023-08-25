@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Iterate over badges object and return matching key/value
 function renderLicenseBadge(license) {
   const badges = {
     gnuGPLv3: '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)',
@@ -20,8 +19,7 @@ function renderLicenseBadge(license) {
   };
 };
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// Iterate over licenseLink object and return matching key/value
 function renderLicenseLink(license) {
   const licenseLink = {
     gnuGPLv3: 'https://www.gnu.org/licenses/gpl-3.0',
@@ -41,8 +39,7 @@ function renderLicenseLink(license) {
   };
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// Return license section based on user input
 function renderLicenseSection(license) {
   if (license === '') {
     return `This repo has no license.`
@@ -51,7 +48,7 @@ function renderLicenseSection(license) {
   }
 }
 
-// TODO: Create a function to generate markdown for README
+// Generate markdown based on user input
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -108,7 +105,6 @@ function generateMarkdown(data) {
   - Email: ${data.email}
 `;
 }
-//note the templaye literal^. You need to write out the markdown file and
-//fill it in with ${data.example}
 
+//export generateMarkdown function
 module.exports = generateMarkdown;
